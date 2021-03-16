@@ -41,7 +41,7 @@ class subscriptionController extends Controller
                 'email' => $user->email,
             ]);
         
-        return redirect()->route('home')->with('success', 'Your plan subscribed successfully');
+        return redirect()->route('home')->with('success', 'Your payment made successfully');
     }
 
 }
